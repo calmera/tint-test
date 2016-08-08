@@ -17,4 +17,12 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://[[ hex.name ]]-n1.hex:8020/</value>
+    </property>
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/data/tmp</value>
+    </property>
 </configuration>
