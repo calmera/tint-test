@@ -119,11 +119,11 @@
     <!-- ==================================================================== -->
     <property>
         <name>dfs.namenode.name.dir</name>
-        <value>/data/dfs/nn</value>
+        <value>/persistent/dfs/nn</value>
     </property>
     <property>
         <name>dfs.datanode.data.dir</name>
-        <value>/data/dfs/dn</value>
+        <value>/persistent/dfs/dn</value>
     </property>
 
 </configuration>
